@@ -1,0 +1,147 @@
+.follow {
+  width: 870px;
+  margin: 1.7rem;
+    margin-left: -3rem;
+    margin-bottom: 3rem;
+
+  .flex-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+
+    border-bottom: 1px solid #21262D;
+    height: 120px;
+
+    .first-content {
+      width: 60%;
+      display: flex;
+      justify-content: space-around;
+      img{
+        width: 90px;
+        height: 80px;
+        margin-left: -3rem;
+      }
+
+      .second-content {
+        margin-left: -5rem;
+
+
+        h3 {
+          margin-left: -3rem;
+          color: #fff;
+
+          span {
+            color: grey;
+            font-size: 15px;
+          }
+        }
+
+        .bio {
+          font-size: 15px;
+          color: #88919B;
+          margin-left: -3rem;
+        }
+
+        .location {
+          color: #88919B;
+          margin-left: -3rem;
+          margin-top: .5rem;
+        }
+      }
+    }
+
+    .content-btn {
+      border: 1px solid #88919B;
+      color: #88919B;
+      border-radius: 7px;
+
+      &:hover {
+        border: 1px solid #fff;
+        color: #fff;
+        background-color: #5f5c5c;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:576px){
+  .follow {
+    width: 870px;
+    margin: 1.7rem;
+      margin-left: -3rem;
+      margin-top: 3rem;
+      position: relative;
+      top: 9rem;
+      left: 2.5rem;
+  
+    .flex-content {
+      width: 90%;
+      margin: 9rem auto;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: -4rem;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #21262D;
+      height: 120px;
+
+
+      .first-content {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+
+
+        img{
+          width: 90px;
+          height: 80px;
+          margin-left: -3rem;
+          display: none;
+        }
+  
+        .second-content {
+          margin-left: -5rem;
+  
+  
+          h3 {
+            margin-left: -3rem;
+            color: #fff;
+            // display: none;
+  
+            span {
+              color: grey;
+              font-size: 15px;
+              display: none;
+            }
+          }
+  
+          .bio {
+            font-size: 15px;
+            color: #88919B;
+            margin-left: -3rem;
+          }
+  
+          .location {
+            color: #88919B;
+            margin-left: -3rem;
+            margin-top: .5rem;
+          }
+        }
+      }
+  
+      .content-btn {
+        border: 1px solid #88919B;
+        color: #88919B;
+        border-radius: 7px;
+  
+        &:hover {
+          border: 1px solid #fff;
+          color: #fff;
+          background-color: #5f5c5c;
+        }
+      }
+    }
+  }
+   
+}

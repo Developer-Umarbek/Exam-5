@@ -1,0 +1,234 @@
+.main__header {
+    border-bottom: 2px solid #21262D;
+    padding: 10px;
+    background-color: #0D1117;
+
+    a {
+        color: #a19f9f;
+    }
+
+    &__text {
+
+
+        &__ul {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 2rem;
+            display: flex;
+            justify-content: center;
+            height: 65px;
+            align-items: center;
+
+            &__li {
+                margin: 10px;
+            }
+        }
+    }
+
+
+    .active {
+        position: relative;
+        font-weight: 500;
+    
+        &::after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          background: rgb(236, 125, 125);
+          bottom: -3.7px;
+          border-radius: 2px;
+        }
+      }
+
+}
+
+.main__left {
+    width: 350px;
+    margin-top: -3rem;
+    margin-left: 1rem;
+
+
+    img {
+        width: 330px;
+    }
+
+    h2 {
+        margin-top: 1rem;
+        color: #fff;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    p {
+        margin-top: 1.8rem;
+        color: #fff;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+
+    .btn {
+        width: 100%;
+        background-color: #21262D;
+        color: #fff;
+        border: 1px solid grey;
+        border-radius: 7px;
+    }
+
+    ul {
+        display: flex;
+        margin: 0;
+    }
+
+    .main-ul {
+        margin-top: 1rem;
+        color: grey;
+        margin-bottom: .5rem;
+        margin-left: -2rem;
+
+        span {
+            color: #fff;
+            padding: 2px;
+        }
+    }
+
+    .main-ul2 {
+        display: flex;
+        color: grey;
+        font-weight: 100;
+        margin-left: -2rem;
+    }
+}
+
+
+
+@media only screen and (max-width:576px){
+    .main__header {
+        width: 370px;
+        margin: 0 auto;
+        border-bottom: 2px solid #21262D;
+        padding: 10px;
+        background-color: #0D1117;
+        position: absolute;
+        right: 1em;
+        margin-top: 20rem;
+        overflow-y: scroll;
+
+        i{
+            display: none;
+        }
+
+        a {
+            color: #a19f9f;
+            font-size: 11px;
+        }
+    
+        &__text {
+    
+    
+            &__ul {
+                width: 50%;
+                margin: 0 auto;
+                padding-top: 2rem;
+                display: flex;
+                justify-content: center;
+                height: 65px;
+                align-items: center;
+    
+                &__li {
+                    margin: 10px;
+                }
+            }
+        }
+    
+    
+        .active {
+            position: relative;
+            font-weight: 500;
+        
+            &::after {
+              content: '';
+              position: absolute;
+              width: 100%;
+              height: 2px;
+              background: rgb(236, 125, 125);
+              bottom: -3.7px;
+              border-radius: 2px;
+            }
+          }
+    
+    }
+    
+    .main__left {
+        width: 350px;
+        margin: 0 auto;
+        // margin-top: -3rem;
+        // margin-left: 1rem;
+    
+
+        .flex-url{
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            height: 60px;
+            align-items: center;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+            // margin-right: 4rem;
+        }
+    
+        h2 {
+            margin-top: 1rem;
+            color: #fff;
+        }
+    
+        h4 {
+            font-size: 22px;
+        }
+    
+        p {
+            margin-top: 1.8rem;
+            color: #fff;
+            font-weight: 100;
+            letter-spacing: 1px;
+        }
+    
+        .btn {
+            width: 100%;
+            background-color: #21262D;
+            color: #fff;
+            border: 1px solid grey;
+            border-radius: 7px;
+        }
+    
+        ul {
+            display: flex;
+            margin: 0;
+        }
+    
+        .main-ul {
+            // margin-top: 1rem;
+            color: grey;
+            margin-bottom: .5rem;
+            margin-left: -2rem;
+    
+            span {
+                color: #fff;
+                padding: 2px;
+            }
+        }
+    
+        .main-ul2 {
+            display: flex;
+            color: grey;
+            font-weight: 100;
+            margin-left: -2rem;
+        }
+    }
+    
+    
+}

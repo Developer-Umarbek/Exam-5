@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+.all{
+    width: 100%;
+    background-color: #0D1117;
+}
+
+.section{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #0D1117;
+    display: flex;
+    min-height: 500px;
+}
+
+@media only screen and (max-width:576px){
+    .all{
+        width: 100%;
+        background-color: #0D1117;
+    }
+    
+    .all-min-container{
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    .section{
+        width: 300px;
+        margin: 0 auto;
+        background-color: #0D1117;
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 500px;
+    }
+    
+}
